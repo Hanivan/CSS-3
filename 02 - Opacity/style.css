@@ -1,0 +1,30 @@
+body {
+	background-color: black;
+}
+
+.satu {
+	width: 300px;
+	height: 300px;
+	background-image: url(img/favicon.png);
+	background-size: cover;
+	opacity: 0.5; /*0 Di depan bisa dihapus, jadi => .5 atau .25*/
+	position: relative;
+}
+
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+	opacity: .5;
+}
+
+/*Jika parent dari sebuah element memiliki opacity, maka element didalamnya/child-nya akan mewarisi opacity tersebut*/
+
+/*Jika kita memberikan posisi absolute pada child dengan parent yang memiliki opacity, maka opacity dari element child tidak akan menembus opacity dari parent-nya*/
+
+/*Kalau opacity dari parent ingin tembus, maka tambahkan juga opacity untuk element child*/
+
+/*Kita tidak bisa membuat opacity dari element child solid, jika parent-nya memiliki nilai opacity*/
