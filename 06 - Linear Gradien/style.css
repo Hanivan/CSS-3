@@ -1,0 +1,17 @@
+div.satu {
+	width: 600px;
+	height: 300px;
+	margin: 50px auto;
+	background-image: linear-gradient(to right,red 63%,#f0d606,rgba(255,255,0,1),green 80%);
+}
+
+div.dua {
+	width: 600px;
+	height: 300px;
+	margin: 50px auto;
+	background: linear-gradient(red 50%,white 50%);
+}
+
+body {
+	background-color: grey;
+}
