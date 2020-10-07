@@ -1,0 +1,62 @@
+div.satu {
+	width: 640px;
+	height: 360px;
+	/*Sintaks Biasa*/
+	background-image: radial-gradient(red,blue);
+}
+
+div.dua {
+	margin-top: 10px;
+	width: 640px;
+	height: 360px;
+	/*Multiple Color*/
+	background-image: radial-gradient(red, green, blue);
+}
+
+div.tiga {
+	margin-top: 10px;
+	width: 640px;
+	height: 360px;
+	/*Multiple Color dan memakai Color Stop*/
+	background-image: radial-gradient(red 10%, green 20%, blue 80%);
+}
+
+div.empat {
+	margin-top: 10px;
+	width: 640px;
+	height: 360px;
+	/*Implementasi Tipe Radial-Gradient*/
+	background-image: radial-gradient(ellipse,red,blue);
+}
+
+div.lima {
+	margin-top: 10px;
+	width: 640px;
+	height: 360px;
+	/*Implementasi Tipe Radial-Gradient*/
+	background-image: radial-gradient(circle,red,blue);
+}
+
+div.enam {
+	margin-top: 10px;
+	width: 640px;
+	height: 360px;
+	/*Implementasi Tipe Jangkauan Radial-Gradient*/
+	background-image: radial-gradient(circle closest-side, red,blue);
+}
+
+div.tujuh {
+	margin-top: 10px;
+	width: 640px;
+	height: 360px;
+	/*Implementasi Tipe Jangkauan Radial-Gradient*/
+	background-image: radial-gradient(circle farthest-corner, red,blue);
+}
+
+div.delapan {
+	margin-top: 10px;
+	width: 640px;
+	height: 360px;
+	/*Implementasi Posisi dari Radial-Gradient*/
+	background-image: radial-gradient(circle farthest-side at top left, red,blue);
+}
