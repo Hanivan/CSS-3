@@ -1,0 +1,13 @@
+/*Penggunaan PropertyFont Face*/
+@font-face {
+	font-family: "Kaushan Script";
+	src: url('KaushanScript-Regular.otf') format('truetype');
+	/*Karena lokasi font-nya satu tingkat dengan file index.html, maka tinggal copas nama font-nya saja di tag link pada file html*/
+}
+h1 {
+	font-size: 100px;
+	text-align: center;
+	font-family: "Arial Narrow", arial, sans-serif;
+	font-family: "Kaushan Script", arial; /*Font from fontsquirrel.com*/
+	font-family: "Indie Flower",cursive; /*Online Font*/
+}
