@@ -1,0 +1,12 @@
+body {
+	text-align: center;
+}
+
+img {
+	width: 640px;
+	height: 360px;
+	/*For Chrome, Safari, Opera new version*/
+	-webkit-filter: grayscale(100%);
+	/*For Firefox*/
+	filter: grayscale(100%);
+}
