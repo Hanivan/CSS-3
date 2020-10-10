@@ -1,0 +1,25 @@
+p {
+	font-size: 20px;
+	text-align: center;
+}
+
+/*
+Pemakaian fungsi transform:
+ scale(angka) atau scaleX(angka), scaleY(angka) atau scale(posisi-x, posisi-y)
+ rotate(deg) atau rotateX(deg), rotateY(deg)
+ skew(deg) atau skewX(deg), skewY(deg) -- note: skew(deg) == skewX(deg)
+ translate(px) atau translateX(px), translateY(px) atau translate(posisi-x px, posisi-y px)
+*/
+
+.kotak {
+	width: 200px;
+	height: 200px;
+	background-color: lightblue;
+	margin: 50px auto 0;
+	transition: 1s;
+}
+
+.kotak:hover {
+	/*transform: translate(50px, 100px);*/
+	transform: scale(1.5) rotate(360deg);
+}
